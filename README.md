@@ -1,1 +1,1 @@
-# Pottery-web-page
+# pottery-web-page
