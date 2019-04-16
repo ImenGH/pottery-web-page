@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Website page with Bootstrap 4</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+  <div class="container-fluid">
+    <h1>Pottery</h1>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-traget="#navbarResponsitive">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsitive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Connect</a>
+        </li>
+  </div>
+  </nav>
+
+  <div id="slides" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#slides" data-slide-to="0" class="active"></li>
+    <li data-target="#slides" data-slide-to="1"></li>
+    <li data-target="#slides" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/pottery1.jpg">
+      <div class="carousel-caption">
+
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/pottery2.jpg">
+    </div>
+    <div class="carousel-item">
+      <img src="img/pottery3.jpg">
+    </div>
+  </div>
+
+  <div class="container-fluid padding">
+  <div class="row welcome text-center">
+    <div class="col-12">
+      <h1 class="display-4">Our Products</h1>
+      <hr>
+    </div>
+
+  </div>
+  </div>
+
+<div class="container-fluid padding">
+<div class="row padding">
+  <div class="col-md-3">
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="img/tajine.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Tajines</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">See more</a>
+      </div>
+    </div>
+  </div>
+
+    <div class="col-md-3">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="img/tebsi.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Plates</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">See more</a>
+        </div>
+      </div>
+    </div>
+
+      <div class="col-md-3">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="img/saladier.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Bowls</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">See more</a>
+          </div>
+        </div>
+      </div>
+
+        <div class="col-md-3">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="img/huiliere.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">See more</a>
+            </div>
+          </div>
+        </div>
+  </div>
+  </div>
+
+  <!-- <footer>
+  <div class="container-fluid padding">
+  <div class="row text-center">
+    <div class="col-md-4">
+      <h4>Pottery</h4>
+      <hr class="light">
+      <p>Phone number</p>
+      <p>Email</p>
+      <p>Adress</p>
+    </div>
+    <div class="col-md-4">
+      <h4>Terms and Conditions</h4>
+      <hr class="light">
+    </div>
+    <div class="col-md-4">
+      <h4>Connect</h4>
+      <hr class="light">
+    </div>
+  </div>
+  </div>
+  </footer> -->
+
+  <div class="container-fluid padding">
+  <div class="row welcome text-center">
+    <div class="col-12">
+
+    
+    </div>
+
+  </div>
+  </div>
+
+
+  <footer class="py-5 p-3 mb-2 bg-light text-dark">
+
+  	<div class="container">
+  		<div class="row">
+    		<div class="col-md">
+  				<a href="{% url 'about' %}">A propos de nous</a>
+  			</div>
+    		<div class="col-md">
+  				<a href="{% url 'contact' %}">Contact</a>
+  			</div>
+    		<div class="col-md">
+  				<a href="https://www.facebook.com/Dabbarli/">Rejoigner nous  <i class="fa fa-facebook-official"></i></a>
+  			</div>
+  		</div>
+  	</div>
+  	<div class="container">
+  		<p class="mt-3 text-center text-bold">Copyright &copy; <a class="text-bold" href="{% url 'home' %}">Dabbarli</a> 2012-2019</p>
+  	</div>
+  	<!-- /.container -->
+  </footer>
+
+
+  </body>
+  </html>
