@@ -1,0 +1,16 @@
+
+.footer {
+  position:static;
+  width: 100%;
+  background-color: #DCDCDC;
+  color: black;
+  margin-top: 40px;
+}
+
+h4 {
+  margin-top: 30px;
+}
+
+i {
+  margin-top: 10px;
+}
